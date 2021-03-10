@@ -52,7 +52,7 @@ public class Main {
 		System.out.printf("Time for range copying of int array: %d ns\n", (time2 - time1));
 		
 		time1 = System.nanoTime();
-		int restultOfBinarySearch = Arrays.binarySearch(partedArray1, searchKey);
+		int resultOfBinarySearch = Arrays.binarySearch(partedArray1, searchKey);
 		time2 = System.nanoTime();
 		System.out.printf("Time for range copying of int array: %d ns\n", (time2 - time1));
 		
