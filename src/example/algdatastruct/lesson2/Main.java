@@ -1,13 +1,14 @@
-package example.algdatastruct.hw2;
+package example.algdatastruct.lesson2;
 
-import javax.naming.SizeLimitExceededException;
 import java.util.Arrays;
 import java.util.Random;
 
 public class Main {
-	private static final int SIZE_OF_ARRAY = 100;
+	private static int SIZE_OF_ARRAY = 100;
 	
 	public static void main(String[] args) {
+		
+		System.out.println(SIZE_OF_ARRAY);
 		/*
 			Задание 2.1
 		На основе программного кода из домашнего задания №1 реализуйте
@@ -20,7 +21,7 @@ public class Main {
 		Task2_1(fillArrayRandomly(new int[SIZE_OF_ARRAY]));
 		
 		/*
-			Задание 2.1
+			Задание 2.2
 		На основе программного кода из домашнего задания №1 реализуйте
 		массив на основе существующих примитивных или ссылочных типов
 		данных.
@@ -64,7 +65,7 @@ public class Main {
 	 Заполнение массива случайными числами.
 	 @param arrayToFill - заполняемый массив.
 	 */
-	private static int[] fillArrayRandomly(int[] arrayToFill)	{
+	public static int[] fillArrayRandomly(int[] arrayToFill)	{
 		int RANDOM_RANGE = 1000;
 		Random generator = new Random();
 		
