@@ -1,6 +1,6 @@
 package example.algdatastruct.lesson4;
 
-public interface Queue<T> {
+public interface MyQueueInterface<T> {
 	void add(T item);
 	T remove();
 	boolean isEmpty();

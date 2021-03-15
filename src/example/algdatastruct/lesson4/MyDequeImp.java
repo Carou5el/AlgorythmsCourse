@@ -2,10 +2,10 @@ package example.algdatastruct.lesson4;
 
 import java.util.ArrayList;
 
-public class MyDeque<T> implements Deque<T> {
+public class MyDequeImp<T> implements MyDequeInterface<T> {
 	private ArrayList<T> al = new ArrayList<>();
 	
-	public MyDeque(ArrayList inputList) {
+	public MyDequeImp(ArrayList inputList) {
 		al = inputList;
 	}
 	

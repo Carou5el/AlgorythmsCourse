@@ -2,10 +2,10 @@ package example.algdatastruct.lesson4;
 
 import java.util.ArrayList;
 
-public class MyQueue<T> implements Queue<T> {
+public class MyQueueImp<T> implements MyQueueInterface<T> {
 	private ArrayList<T> al = new ArrayList<>();
 	
-	public MyQueue(ArrayList inputList) {
+	public MyQueueImp(ArrayList inputList) {
 		al = inputList;
 	}
 	

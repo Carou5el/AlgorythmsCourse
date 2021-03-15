@@ -2,13 +2,13 @@ package example.algdatastruct.lesson4;
 
 import java.util.ArrayList;
 
-public class MyStack<T> implements Stack<T> {
+public class MyStackImp<T> implements MyStackInterface<T> {
 	
 	private ArrayList<T> al = new ArrayList<>();
 	
 	// Constructor.
 	// Заполнение стэка элементами входящего массива.
-	public MyStack(ArrayList<T> inputList) {
+	public MyStackImp(ArrayList<T> inputList) {
 		al = inputList;
 	}
 	

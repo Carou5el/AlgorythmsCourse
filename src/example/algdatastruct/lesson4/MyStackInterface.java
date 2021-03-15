@@ -1,6 +1,6 @@
 package example.algdatastruct.lesson4;
 
-public interface Stack<T> {
+public interface MyStackInterface<T> {
 	boolean empty();
 	T peek();
 	T pop();

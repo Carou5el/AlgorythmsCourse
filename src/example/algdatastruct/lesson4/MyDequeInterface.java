@@ -1,6 +1,6 @@
 package example.algdatastruct.lesson4;
 
-public interface Deque<T> {
+public interface MyDequeInterface<T> {
 	boolean isEmpty();
 	T peekFirst();
 	T peekLast();
