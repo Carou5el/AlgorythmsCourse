@@ -15,10 +15,10 @@ public class StackQueue {
 			testList.add(generator.nextInt(randomRange));
 		}
 		
-//		Task4_1(testList);
-//		Task4_2(testList);
-//		Task4_3(testList);
-//		Task4_4();
+		Task4_1(testList);
+		Task4_2(testList);
+		Task4_3(testList);
+		Task4_4();
 		Task4_5();
 		
 	}
